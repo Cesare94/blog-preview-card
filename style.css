@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: orange;
+    max-width: 1440px;
+}
+
+.container {
+    width: 400px;
+    border: 1px groove black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 100px auto;
+    padding: 15px 20px;
+    background-color: white;
+    font-family: 'Figtree', sans-serif;
+    box-shadow: 10px 10px 5px black;
+   
+    
+}
+
+.container img {
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 10px;
+   
+
+}
+
+.container b {
+    
+    width: 85px;
+    border-radius: 5px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.container b, span, h2, p, .avatar {
+   margin: 10px 5px;
+   color: black;
+}
+
+.container p {
+    color: grey;
+    font-size: 16px;
+    
+}
+
+
+
+.container .box {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.container .box .avatar {
+    width: 40px;
+}
+
+.container .box span {
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+.attribution {
+    text-align: center;
+    
+}
+
+
+
+
